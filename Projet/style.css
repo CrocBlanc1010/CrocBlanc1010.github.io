@@ -1,0 +1,348 @@
+@font-face{
+	font-family: "anime_ace" ;
+    src: local("anime_ace"),
+	url('font/animeace/animeace2bb_ot/animeace2_reg.otf') format('opentype'),
+	url('font/animeace/animeace2bb_tt/animeace2_reg.ttf') format('truetype'); 
+}
+@font-face{
+	font-family: "vintage party" ;
+    src: local("vintage party"),
+	url('font/VintageParty.ttf') format('truetype'); 
+}
+@font-face{
+	font-family: "who ask satan" ;
+    src: local("who ask satan"),
+	url('font/was/who asks satan.ttf') format('truetype'); 
+}
+@font-face{
+	font-family: "ag" ;
+    src: local("Apocalypse Grunge"),
+	url('font/Apocalypse Grunge.ttf') format('truetype'); 
+}
+
+/*index_0*/
+
+body{
+	font-family:"anime_ace",sans-serif;
+	background-image:url(image/fond.png);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;	
+	margin:0px;
+	padding-top:0px;
+	margin-top:0px;
+	
+}
+#majordome{
+    max-width: 100%;
+    display: block;
+}
+#conteneur{
+	width:100%;
+	display:flex;
+}
+#section1{
+	width:35%;
+	padding:0px;
+	margin:0px;
+}
+#section2{
+	font-size:35px;
+	border:solid 6px black;
+	width:65%;
+	padding-bottom:50px;
+	padding-top:50px;
+	padding-left:50px;
+	padding-right:50px;
+	margin-top:30px;
+	margin-left:10px;
+	margin-right:15px;
+	border-radius:20%;
+	text-align:center;
+	height:50%;
+	background-color:white;
+}
+#bouton1{
+	background-color:black;
+	border-radius:30%;
+	position: absolute;
+}
+#bouton2{
+	background-color:black;
+	border-radius:30%;
+	visibility:hidden;
+	z-index:1;
+}
+#texte1{
+	font-family:"who ask satan", sans-serif;
+	font-size:60px;
+	color:#8B0000;
+}
+
+/*index_1*/
+
+#moon_left{
+	width:30%;
+	margin:0px;
+	padding-top:0px;
+	margin-top:-50px;
+}
+#moon_right{
+	width:30%;
+	margin-top:-50px;
+	margin-left:0px;
+	padding:0px;
+	position:relative;
+	left:70%;
+}
+#section2_cont2{
+	margin-top:-80px;
+	width:40%;
+	font-family:"vintage party",sans-serif;
+	font-size:60px;
+	text-align:center;
+	padding:20px;
+}
+#conteneur2{
+	display:flex;
+	
+}
+#conteneur3{
+	margin-top:-50px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	flex-wrap:wrap;
+	text-align:center;
+
+}
+#section1_cont3{
+	width:400px;
+	height:580px;
+	margin:10px;
+	padding:10px;
+	border:solid black;
+	text-align:center;
+	font-family:"vintage party",sans-serif;
+	font-size:30px;
+	padding-top:0px;
+	border-radius:5%;
+	background-image:url(image/racaille.png);
+}
+#section2_cont3{
+	width:400px;
+	height:580px;
+	margin:10px;
+	padding:10px;
+	border:solid black;
+	text-align:center;
+	font-family:"vintage party",sans-serif;
+	font-size:30px;
+	padding-top:0px;
+	border-radius:5%;
+	background-image:url(image/drag.png);
+}
+#section3_cont3{
+	width:400px;
+	height:580px;
+	margin:10px;
+	padding:10px;
+	border:solid black;
+	text-align:center;
+	font-family:"vintage party",sans-serif;
+	font-size:30px;
+	padding-top:0px;
+	border-radius:5%;
+	background-image:url(image/psy.png);
+	background-repeat:no-repeat;
+}
+#bouton3{
+	background-color:black;
+	color:white;
+	font-family:"vintage party",sans-serif;
+	border-radius:30%;
+	font-size:20px;
+}
+
+#conteneur4{
+	align-items: center;
+	text-align:center;
+}
+
+#conteneur5{
+	align-items: center;
+	text-align:center;
+	border:solid;
+	border-radius:5%;
+	margin-right:100px;
+	margin-left:100px;
+	padding:50px;
+}
+#logo2{
+	width:100px;
+}
+#para3{
+	font-family:"vintage party",sans-serif;
+	font-size:30px;
+	margin-bottom:-5px;
+}
+#para4{
+	font-family:"vintage party",sans-serif;
+	font-size:45px;
+	margin-bottom:-5px;
+}
+/*quiz*/
+
+#logo{
+	width:100px;
+}
+#titrequiz{
+	text-align:center;
+	font-family:"vintage party",sans-serif;
+	font-size:60px;
+}
+#divi1{
+	display:flex;
+	flex-wrap:wrap;
+}
+#secquiz{
+	width:400px;
+	border:solid black;
+	border-radius:5%;
+	padding:10px;
+	margin:10px;
+	text-align:center;
+}
+ol{
+	text-align:justify;
+}
+#divi2quiz{
+	text-align:center;
+	font-size:35px;
+	font-family:"vintage party",sans-serif;
+}
+
+/*page_1*/
+
+#divi2{
+	display:flex;
+}
+#logo3{
+	width:50px;
+	margin-bottom:-15px;
+}
+#divi3{
+	margin:30px;
+	padding:20px;
+	display:flex;
+	font-family:"vintage party",sans-serif;	
+	font-size:28px;
+}
+#section1_divi3{
+	padding:15px;
+	text-align:justify;
+}
+#manu{
+	width:100%;
+}
+
+#section2_divi3{
+	width:80%;
+	margin-left:30px;
+}
+#divi4{
+	margin-top:-80px;
+	margin-left:30px;
+	padding:20px;
+	display:flex;
+	font-family:"vintage party",sans-serif;	
+	font-size:28px;
+	
+}
+#section1_divi4{
+	width:60%;
+}
+
+#para7{
+	margin-top:-70px;
+	text-align:center;
+}
+#lii{
+	margin-top:-35px;
+}
+#para6{
+	margin-top:-70px;
+	text-align:center;
+	margin-left:60px;
+	margin-right:20px;
+}
+
+/*Page2*/
+
+#edt{
+	width:100%;
+}
+#para1p2{
+	border:solid black;
+	margin:20px;
+	border-radius:15%;
+	font-family:"vintage party",sans-serif;	
+	font-size:28px;
+	text-align:center;
+	margin-bottom:-30px;
+}
+#schéma{
+	width:30%;
+}
+#divi5{
+	margin:20px;
+	padding:15px;
+	border:solid black;
+	border-radius:5%;
+	display:flex;
+	flex-wrap:wrap;
+	overflow:hidden;
+}
+#para1_d5{
+	font-family:"vintage party",sans-serif;	
+	font-size:30px;
+	width:60%;
+	text-align:center;
+}
+#para2_d6{
+	width:50%;
+	text-align:center;
+	margin:20px;
+	padding:30px;
+	border:solid;
+	border-radius:5%;
+	font-family:"vintage party",sans-serif;	
+	font-size:30px;
+}
+#divi6{
+	display:flex;
+}
+
+#prof1{
+	width:480px;
+	height:880x;
+	margin:10px;
+	margin-top:40px;
+	border:solid;
+	border-radius:5%;
+}
+#prof1p1{
+	margin-bottom:-30px;
+	margin-top:-10px;
+	font-family:"vintage party",sans-serif;	
+	font-size:50px;
+	text-align:center;
+}
+#logo4{
+	width:70px;
+}
+
+#divpr{
+	display:flex;
+	flex-wrap:wrap;
+}
